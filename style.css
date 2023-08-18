@@ -1,0 +1,47 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Aug  4 13:03:57 2023
+
+@author: tomah
+"""
+
+/* Basic styling for the chatbot container */
+.chat-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styling for user and bot messages */
+.user-message {
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.bot-message {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+/* Styling for the input field and button */
+.input-container {
+  display: flex;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.send-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
